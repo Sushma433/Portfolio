@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "cyberguard-portfolio",
+  "name": "cyber-portfolio",
   "builds": [
     {
       "src": "*.html",
