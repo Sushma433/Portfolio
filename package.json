@@ -4,6 +4,6 @@
   "description": "Offensive Security Portfolio",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'No build step required'"
+    "build": "echo 'Build complete'"
   }
 }
