@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>CyberGuard · digital portfolio</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Three.js canvas container -->
+  <div id="three-canvas"></div>
+
+  <!-- main content -->
+  <div class="main-wrapper">
+
+    <!-- header: identity & badge -->
+    <div class="identity">
+      <h1>
+        <i class="fas fa-shield-halved"></i> 
+        CyberGuard
+      </h1>
+      <div class="badge">
+        <i class="fas fa-lock"></i> 
+        <span>zero-trust · offensive security</span>
+        <i class="fas fa-chevron-right" style="font-size:0.7rem; opacity:0.5; margin-left:0.2rem;"></i>
+      </div>
+    </div>
+
+    <!-- intro / cards (simulate portfolio items) -->
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-user-secret"></i>
+        <h3>Red Team Ops</h3>
+        <p>Adversary simulation, C2 frameworks, and stealth persistence.</p>
+        <span class="tag">#CobaltStrike</span>
+        <span class="tag">#Mythic</span>
+      </div>
+      <div class="card">
+        <i class="fas fa-shield-virus"></i>
+        <h3>Detection Engineering</h3>
+        <p>Sigma rules, YARA, and SIEM content for EDR evasion.</p>
+        <span class="tag">#Sigma</span>
+        <span class="tag">#Splunk</span>
+      </div>
+      <div class="card">
+        <i class="fas fa-code-branch"></i>
+        <h3>Secure Code Review</h3>
+        <p>Static analysis, dependency scanning, and SAST integration.</p>
+        <span class="tag">#Semgrep</span>
+        <span class="tag">#SonarQube</span>
+      </div>
+      <div class="card">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <h3>Cloud Security</h3>
+        <p>AWS/Azure hardening, IAM least privilege, and container security.</p>
+        <span class="tag">#Kubernetes</span>
+        <span class="tag">#Terraform</span>
+      </div>
+    </div>
+
+    <!-- assets section: resume + icons -->
+    <div class="asset-section">
+      <div class="left">
+        <i class="fas fa-file-pdf"></i>
+        <div>
+          <strong>resume.pdf</strong>
+          <span>updated June 2026 · 2 pages</span>
+        </div>
+      </div>
+      <div>
+        <a href="#" class="btn btn-primary" style="pointer-events: none; opacity:0.9;">
+          <i class="fas fa-download"></i> Download (demo)
+        </a>
+      </div>
+    </div>
+
+    <!-- Icons showcase (assets/icons) -->
+    <div class="icon-showcase">
+      <div class="icon-item"><i class="fas fa-fingerprint"></i> fingerprint</div>
+      <div class="icon-item"><i class="fas fa-key"></i> key</div>
+      <div class="icon-item"><i class="fas fa-satellite-dish"></i> dish</div>
+      <div class="icon-item"><i class="fas fa-bug"></i> bug</div>
+      <div class="icon-item"><i class="fas fa-robot"></i> bot</div>
+      <div class="icon-item"><i class="fas fa-network-wired"></i> network</div>
+      <div class="icon-item"><i class="fas fa-skull"></i> skull</div>
+      <div class="icon-item"><i class="fas fa-qrcode"></i> qr</div>
+      <div class="icon-item"><i class="fas fa-microchip"></i> chip</div>
+    </div>
+
+    <!-- CNAME & footer -->
+    <div class="cname-footer">
+      <span><i class="fas fa-globe"></i> CNAME: cyberguard.portfolio</span>
+      <span><i class="fas fa-lock"></i> 0x3f · 2026</span>
+      <span><i class="fas fa-code"></i> built with Three.js & dark matter</span>
+    </div>
+
+  </div>
+
+  <!-- Three.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Three.js Scene -->
+  <script src="threeScene.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
