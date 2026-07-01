@@ -1,1 +1,19 @@
-.vercel
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+
+# Vercel
+.vercel/
+
+# Environment files
+.env
+.env.local
