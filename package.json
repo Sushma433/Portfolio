@@ -1,0 +1,13 @@
+{
+  "name": "cyberguard-portfolio",
+  "version": "1.0.0",
+  "description": "Cybersecurity portfolio with Three.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": ["cybersecurity", "portfolio", "threejs"],
+  "author": "Your Name",
+  "license": "MIT"
+}
