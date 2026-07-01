@@ -1,13 +1,9 @@
 {
-  "name": "cyberguard-portfolio",
+  "name": "sushma-portfolio",
   "version": "1.0.0",
-  "description": "Cybersecurity portfolio with Three.js",
+  "description": "Offensive Security Portfolio",
   "main": "index.html",
   "scripts": {
-    "dev": "serve .",
     "build": "echo 'No build step required'"
-  },
-  "keywords": ["cybersecurity", "portfolio", "threejs"],
-  "author": "Your Name",
-  "license": "MIT"
+  }
 }
