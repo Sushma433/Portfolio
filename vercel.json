@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "name": "cyber-portfolio",
+  "name": "sushma-lama-offensive-security",
   "builds": [
     {
       "src": "*.html",
-      "use": "@vercel/static"
+      "use": "@vercel/static-build"
     },
     {
       "src": "*.css",
-      "use": "@vercel/static"
+      "use": "@vercel/static-build"
     },
     {
       "src": "*.js",
-      "use": "@vercel/static"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
